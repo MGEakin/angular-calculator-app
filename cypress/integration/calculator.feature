@@ -2,28 +2,28 @@ Feature: calculator
 
   Scenario: Addition
     Given a calculator
-    And I start with a 2
-    When I add a value of 2
-    Then I will have a total of 4
+    And I start with a "2"
+    When I "add" a value of "2"
+    Then I will have a total of "4"
 
-#  Scenario: Subtraction
-#    Given a calculator
-#    And I start with a 3
-#    When I subtract a value of 1
-#    Then I will have a total of 2
-#
-#  Scenario: Multiplication
-#    Given a calculator
-#    And I start with a 3
-#    When I multiply a value of 2
-#    Then I will have a total of 6
-#
-#  Scenario: Division
-#    Given a calculator
-#    And I start with a 6
-#    When I divide a value of 2
-#    Then I will have a total of 3
-#
+  Scenario: Subtraction
+    Given a calculator
+    And I start with a "3"
+    When I "subtract" a value of "1"
+    Then I will have a total of "2"
+
+  Scenario: Multiplication
+    Given a calculator
+    And I start with a "3"
+    When I "multiply" a value of "2"
+    Then I will have a total of "6"
+
+  Scenario: Division
+    Given a calculator
+    And I start with a "6"
+    When I "divide" a value of "2"
+    Then I will have a total of "3"
+
 #  Scenario: Multiplication Floats/Decimals
 #    Given a calculator
 #    And I start with a 2
