@@ -9,9 +9,7 @@ export class AppComponent {
   title = 'angular-calculator-app';
   subDisplayText = '';
   mainDisplayText = '';
-  // operand1: number;
   operand1 = 0;
-  // operand2: number;
   operand2 = 0;
   operator = '';
   calculationString = '';
