@@ -4,12 +4,12 @@ import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CalculatorComponent } from './calculator/calculator.component';
+import { CalculatorsComponent } from './calculators/calculators.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CalculatorComponent
+    CalculatorsComponent
   ],
   imports: [
     BrowserModule,
